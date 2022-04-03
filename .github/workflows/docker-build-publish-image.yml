@@ -1,13 +1,10 @@
 ---
 name: Publish Docker image
 #on:
-#  release:
-#    types: [published]
-# only build on tags, for testing use manual workflow_dispatch
 on:
-  push:
-    paths:
-      - 'Dockerfile'
+  #push:
+  #  paths:
+  #    - 'Dockerfile'
   workflow_dispatch:
 
 jobs:
