@@ -1,0 +1,4 @@
+## Requirements
+
+- podman
+- xhost
