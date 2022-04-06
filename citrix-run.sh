@@ -10,7 +10,7 @@ fi
 
 xhost +SI:localuser:"$(id -u -n)"
 
-podman run --rm --detach \
+podman run --rm \
   --user citrix \
   --userns keep-id \
   --ipc=host \
