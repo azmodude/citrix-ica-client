@@ -1,4 +1,4 @@
-ICACLIENT_VERSION := 22.3.0.24-0
+ICACLIENT_VERSION := 24.2.0.65-0
 
 build:
 	podman build -t citrix-ica-client -v $(shell pwd):/host \
