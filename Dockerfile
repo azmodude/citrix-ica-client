@@ -1,4 +1,4 @@
-FROM fedora:35
+FROM fedora:41
 
 ARG ICACLIENT_VERSION
 
